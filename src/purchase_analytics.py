@@ -1,6 +1,6 @@
-## Purchase Analytics insight challange
+## Purchase Analytics insight challenge
 ## @Author: Yuanzheng Zhu
-## ...Cannot use any external packages like pandas, np, etc...
+## python version 2.7
 
 import sys
 
@@ -47,7 +47,6 @@ if __name__ == "__main__":
             #print prod_depa_dict
     except (IOError, OSError):
         print("Cannot open file")
-
 
     # second step, create 2 hashmaps for counting orders and first-time orders
     prod_order = {}
